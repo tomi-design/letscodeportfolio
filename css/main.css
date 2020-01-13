@@ -2,7 +2,7 @@
 /***** BASE STYLES *****************/
 
 body {
-  background-color: black;
+  background-color: #000033;
 }
 
 /***** GRID **********************/
@@ -24,16 +24,16 @@ body {
 /***** HEADER ******************/
 
 header {
-   	  background: url('../img/hero-background.png');
-    	background-size: cover;
-      height: 800px;
+   	  background: url('../img/apple7.png');
+      height: 840px;
 }
 
 header h1 {
   color: white;
   font-family: 'Source Code Pro', monospace;
-  font-size: 72px;
+  font-size: 80px;
   padding-top: 200px;
+  text-align: center;
 }
 
 header p {
@@ -48,7 +48,7 @@ span {
 }
 
 #navbar {
-  background: black;
+  background: #000033;
   height: 70px;
   width: 100%;
 }
@@ -90,7 +90,6 @@ a:link {
   padding: 50px 180px 0px 0px;
   text-align: center;
 }
-
 
 /*****rogue******/
 
@@ -183,9 +182,15 @@ a:link {
 /*****ABOUT**********************/
 
 #about {
-   	  background: url('../img/about-me.png');
-      background-size: 80%;
-      height: 550px;
+   	  /*background: url('../img/about-me.png');*/
+      /*background-size: 80%;*/
+      background-color: #b5b4b0;
+      height: 600px;
+}
+
+#about img {
+  width: 300px;
+  margin: 30px 20px 30px 200px;
 }
 
 #about  h2 {
@@ -193,12 +198,12 @@ a:link {
   font-family: 'Source Code Pro', monospace;
   font-size: 36px;
   font-weight: 600;
-  padding-top: 40px;
+  padding-top: 30px;
   text-align: center;
 }
 
 #about h3 {
-  color: black;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   margin-left: 100px;
@@ -206,7 +211,7 @@ a:link {
 }
 
 #about p {
-  color: black;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   margin-left: 100px;
