@@ -239,6 +239,10 @@ footer h3,p {
   text-align: center;
 }
 
+footer img {
+  margin: 0px 0px 0px 114px;   
+}
+
 #contact {
   margin-left: 350px;
   width: 1400px;
